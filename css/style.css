@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Raleway";
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+}
+
+h6, p, body, li{
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 0;
+    color: #4c4c4c;
+    font-weight: 400;
+    letter-spacing: .01em;
+}
+
+h1, h2 {
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #4c4c4c;
+  font-weight: 400;
+  letter-spacing: -.02em;
+}
+
+h3, h4, h5 {
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  color: #4c4c4c;
+  font-weight: 400;
+  letter-spacing: .01em;
+}
+
+
+a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+a:hover{
+  color:#4c4c4c;
+}
+
+.u-dodgerblue{
+    color:#1E90FF;
+}
+
+.u-dark {
+  color: #4c4c4c;
+}
+
+.u-grey {
+    color:#9D9D9D;
+}
+
+.u-bold {
+  font-weight:600;
+}
+
+.u-med{
+  font-weight: 400;
+}
+
+#portfolio a{
+  color: #F1756E;
+  font-weight: 400;
+}
+
+#portfolio a:hover{
+  color: #F2453C;
+  font-weight: 400;
+}
+
+.mockup {
+  width: 100%;
+  margin-bottom:40px;
+}
+
+/*Components*/
+
+ul.header-links--inline li{
+    display: inline-block;
+    margin-right: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.button{
+  height:48px;
+  text-transform: none;
+  font-size: 16px;
+  line-height:44px;
+  font-weight:600;
+}
+
+.project {
+  -webkit-transform: scale(1.00);
+  transition: 0.3s;
+}
+.project:hover {
+  -webkit-transform: scale(1.02);
+  transition: 0.25s;
+}
+
+.portfolio {
+  background-color: #fcfcfc;
+  margin-top: -48px;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+.card{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.header {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.end {
+  padding-top: 48px;
+  padding-bottom: 120px;
+}
+
+.avatar{
+  width: 100%;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.24), 0 9px 25px 1px rgba(0,0,0,0.18), 0 10px 45px 0 rgba(0,0,0,0.12);
+  margin-bottom:40px;
+}
+
+.card-first{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
