@@ -2,7 +2,12 @@
 <html lang="en">
 	<head>
 		<title>Michael Huang</title>
-        <link rel="icon" type="favicon" sizes="96x96" href="img/favicon.png">
+        
+        <!-- Load font -->
+        <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+        
+        <link rel="icon" type="favicon" sizes="96x96" href="/favicon.png">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/skeleton.css">
         <link rel="stylesheet" href="{{ site.baseurl}}/css/style.css"
@@ -15,8 +20,25 @@
 	</head>
 
 	<body>
-		<header>
-		</header>
+        <header>
+            <div class="section-title">
+                <div class="container" style="margin-top: 120px; margin-bottom: 72px">
+                    <div class="row">
+                        <div class="twelve columns">
+                            <a href="/"><h2 class="u-dodgerblue" style="margin-bottom: 20px">Michael Huang</h2></a>
+                            <h4 style="margin-bottom:35px">Stuff.</h4>
+                            <ul class="header-links--inline">
+                                <li class="u-grey"><a href="/">Portfolio</a></li>
+                                <li class="u-grey"><a href="/about/">About</a></li>
+                                <li class="u-grey"><a target="_blank" href="/resources/resume.pdf">Resume</a></li>
+                                <li class="u-grey"><a target="_blank" href="https://medium.com/@mkhuang">Medium</a></li>
+                                <li class="u-grey"><a target="_blank" href="mailto:mh999@cornell.edu">Email</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 	
 		{{ content }}
 		
