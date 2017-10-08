@@ -12,7 +12,7 @@
 }
 
 h6, p, body, li{
-    margin-top: px;
+    margin-top: 12px;
     color: #4c4c4c;
     font-weight: 400;
     letter-spacing: .01em;
@@ -53,6 +53,10 @@ a:hover{
 
 .u-dodgerblue{
     color: #1E90FF;
+}
+
+.u-dodgerblue:hover {
+    color: #1eb6ff;
 }
 
 .u-dark {
