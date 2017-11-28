@@ -7,11 +7,13 @@
 }
 
 @font-face {
-    font-family: "Raleway";
+    font-family: "San Francisco";
     font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 h6, p, body, li{
+    font-family: "San Francisco","Helvetica Nueue", sans-serif;
     margin-top: 12px;
     color: #4c4c4c;
     font-weight: 400;
@@ -19,6 +21,7 @@ h6, p, body, li{
 }
 
 h1, h2 {
+    font-family: "San Francisco","Helvetica Nueue", sans-serif;
     letter-spacing: 0;
     margin-bottom: 0;
     color: #4c4c4c;
@@ -27,17 +30,10 @@ h1, h2 {
 }
 
 h3, h4, h5 {
+    font-family: "San Francisco","Helvetica Nueue", sans-serif;
     letter-spacing: 0;
     margin-bottom: 0;
     color: #4c4c4c;
-    font-weight: 400;
-    letter-spacing: .01em;
-}
-
-h5 {
-    letter-spacing: 0;
-    margin-bottom: 0;
-    color: #1D2129;
     font-weight: 400;
     letter-spacing: .01em;
 }
@@ -52,11 +48,11 @@ a:hover{
 }
 
 .u-dodgerblue{
-    color: #1E90FF;
+    color: #464E9C;
 }
 
 .u-dodgerblue:hover {
-    color: #1eb6ff;
+    color: #464E9C;
 }
 
 .u-dark {
@@ -68,20 +64,10 @@ a:hover{
 }
 
 .u-bold {
-    font-weight:600;
+    font-weight: 600;
 }
 
 .u-med{
-    font-weight: 400;
-}
-
-#portfolio a{
-    color: #1eb6ff;
-    font-weight: 400;
-}
-
-#portfolio a:hover{
-    color: #1E90FF;
     font-weight: 400;
 }
 
