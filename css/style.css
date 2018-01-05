@@ -10,7 +10,10 @@
     font-family: "San Francisco";
     font-weight: 600;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-    /*test*/
+}
+
+hr {
+    width: 70%;
 }
 
 h6, p, body, li{
@@ -30,6 +33,10 @@ h1, h2 {
     letter-spacing: -.02em;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 h3, h4, h5 {
     font-family: "San Francisco","Helvetica Nueue", sans-serif;
     letter-spacing: 0;
@@ -39,6 +46,10 @@ h3, h4, h5 {
     letter-spacing: .01em;
 }
 
+h4 {
+    margin-bottom: 35px;
+}
+
 a {
     text-decoration: none;
     color: #BDBDBD;
@@ -46,6 +57,17 @@ a {
 
 a:hover{
     color:#4c4c4c;
+}
+
+img {
+    width: 20em;
+    height: auto;
+}
+
+.img-about {
+    margin-top: 20px;
+    width: 75%;
+    height: auto;
 }
 
 .u-dodgerblue{
@@ -108,6 +130,8 @@ ul.header-links--inline li{
 .portfolio {
     background-color: #fcfcfc;
     margin-top: -48px;
+    padding-bottom: 48px;
+    padding-top: 48px;
 }
 
 img {
