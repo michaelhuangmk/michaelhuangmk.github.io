@@ -1,44 +1,33 @@
 @font-face {
-    font-weight: 200;
-}
-
-@font-face {
-    font-weight: 400;
-}
-
-@font-face {
     font-family: "San Francisco";
-    font-weight: 600;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-hr {
-    width: 70%;
+/* header nav */
+.nav {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
-h6, p, body, li{
-    font-family: "San Francisco","Helvetica Nueue", sans-serif;
-    margin-top: 12px;
-    color: #4c4c4c;
-    font-weight: 400;
-    letter-spacing: .01em;
-}
-
-h1, h2 {
-    font-family: "San Francisco","Helvetica Nueue", sans-serif;
-    letter-spacing: 0;
-    margin-bottom: 0;
-    color: #4c4c4c;
-    font-weight: 400;
-    letter-spacing: -.02em;
-}
-
+/* header title text */
 h2 {
-    margin-bottom: 20px;
+  font-family: "San Francisco", sans-serif;
+  margin-bottom: 20px;
+}
+
+/* description text and nav items */
+h6, p, li {
+  font-family: "San Francisco", sans-serif;
+  color: #4c4c4c;
+  letter-spacing: .01em;
+}
+
+h6 {
+  margin-top: 10px;
 }
 
 h3, h4, h5 {
-    font-family: "San Francisco","Helvetica Nueue", sans-serif;
+    font-family: "San Francisco", sans-serif;
     letter-spacing: 0;
     margin-bottom: 0;
     color: #4c4c4c;
@@ -47,12 +36,21 @@ h3, h4, h5 {
 }
 
 h4 {
-    margin-bottom: 35px;
+  margin-bottom: 36px;
+}
+
+h5 {
+  color: black;
+}
+
+hr {
+  width: 60%;
+  margin-bottom: 5%;
 }
 
 a {
-    text-decoration: none;
-    color: #BDBDBD;
+  text-decoration: none;
+  color: #BDBDBD;
 }
 
 a:hover{
@@ -115,7 +113,8 @@ ul.header-links--inline li{
     text-transform: none;
     font-size: 16px;
     line-height:44px;
-    font-weight:600;
+    font-weight:400;
+    margin: 10px auto 20px auto;
 }
 
 .project {
@@ -139,7 +138,7 @@ img {
     margin:auto;
 }
 
-.card{
+.card {
     padding-top: 48px;
     padding-bottom: 48px;
     border-bottom: 1px solid #E6E6E6;
