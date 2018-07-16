@@ -95,11 +95,11 @@ ul.header-links--inline li {
 
 .project {
     -webkit-transform: scale(1.00);
-    transition: 0.3s;
+    transition: 0.35s;
 }
 .project:hover {
     -webkit-transform: scale(1.02);
-    transition: 0.25s;
+    transition: 0.35s;
 }
 
 .portfolio {
