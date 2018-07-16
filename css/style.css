@@ -5,92 +5,101 @@
 
 /* header nav */
 .nav {
-  margin-top: 120px;
-  margin-bottom: 120px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: "San Francisco", sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 h2 {
-  font-family: "San Francisco", sans-serif;
-  margin-bottom: 20px;
+    font-size: 24px;
+    color: #4c4c4c;
+    margin-bottom: 36px;
+    font-weight: 200;
 }
 
 h4, h5 {
     font-family: "San Francisco", sans-serif;
     color: #4c4c4c;
     letter-spacing: .01em;
-}
-
-h4 {
-  margin-bottom: 36px;
+    /*  margin-bottom: 36px;*/
 }
 
 h5 {
-  color: black;
+    color: black;
 }
 
 h6, p, li {
-  font-family: "San Francisco", sans-serif;
-  color: #4c4c4c;
-  letter-spacing: .01em;
+    font-family: "San Francisco", sans-serif;
+    color: #4c4c4c;
+    letter-spacing: .01em;
 }
 
 h6 {
-  margin-top: 10px;
-  color: #9D9D9D;
+    margin-top: 10px;
+    color: #9D9D9D;
 }
 
 hr {
-  width: 60%;
-  margin-bottom: 5%;
+    width: 60%;
+    margin-bottom: 5%;
 }
 
 a {
-  text-decoration: none;
-  color: #BDBDBD;
-  font-weight: lighter;
+    text-decoration: none;
+    color: #BDBDBD;
+    font-weight: lighter;
 }
 
 a:hover{
-  color:#4c4c4c;
+    color:#4c4c4c;
 }
 
 img {
-  width: 20em;
-  height: auto;
-  display: flex;
-  margin: auto;
+    width: 20em;
+    height: auto;
+    display: flex;
+    margin: auto;
 }
 
 .u-dodgerblue{
-  color: #464E9C;
+    color: #464E9C;
 }
 
 .u-dodgerblue:hover {
-  color: #464E9C;
+    color: #464E9C;
 }
 
 .u-grey {
-  color:#9D9D9D;
+    color:#9D9D9D;
 }
 
 /*Components*/
 
 ul.header-links--inline li {
-  display: inline-block;
-  width: 100%;
-  margin: 0 auto;
-  text-transform: uppercase;
-  font-weight: 600;
-  text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
 }
 
 .button {
-  height:48px;
-  text-transform: none;
-  font-size: 16px;
-  line-height:44px;
-  font-weight:400;
-  margin: 10px auto 10px auto;
+    height:48px;
+    text-transform: none;
+    font-size: 16px;
+    line-height:44px;
+    font-weight:400;
+    margin: 10px auto 10px auto;
 }
 
 .project {
