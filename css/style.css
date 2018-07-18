@@ -37,6 +37,10 @@
     color: #4c4c4c;
 }
 
+.u-lightgrey {
+    color: #AFAFAF;
+}
+
 /* ==================== *
 * = Main = *
 * ==================== */
@@ -46,7 +50,7 @@
     margin-bottom: 120px;
 }
 
-h1, h2, h4, h5, h6, a, p, body, li {
+h1, h2, h3, a, p, body, li {
     font-family: "San Francisco", sans-serif;
     font-weight: 400;
 }
@@ -57,23 +61,19 @@ h1 {
 
 h2 {
     font-size: 24px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     font-weight: 200;
 }
 
-h5 {
+h3 {
+    font-size: 20px;
     color: black;
     letter-spacing: .01em;
 }
 
-h6, p, li {
+p, li {
     color: #4c4c4c;
     letter-spacing: .01em;
-}
-
-h6 {
-    margin-top: 10px;
-    color: #9D9D9D;
 }
 
 hr {
@@ -83,12 +83,12 @@ hr {
 
 a {
     text-decoration: none;
-    color: #BDBDBD;
+    color: #afafaf;
     font-weight: lighter;
 }
 
 a:hover{
-    color:#4c4c4c;
+    color: #464E9C;
 }
 
 img {
@@ -96,10 +96,6 @@ img {
     height: auto;
     display: flex;
     margin: auto;
-}
-
-u-bold {
-    font-weight: 600;
 }
 
 /* ==================== *
@@ -123,6 +119,7 @@ ul.header-links--inline li {
     margin: 10px auto 10px auto;
 }
 
+/*
 .project {
     -webkit-transform: scale(1.00);
     transition: 0.35s;
@@ -131,6 +128,7 @@ ul.header-links--inline li {
     -webkit-transform: scale(1.02);
     transition: 0.35s;
 }
+*/
 
 .portfolio {
     background-color: #fcfcfc;
