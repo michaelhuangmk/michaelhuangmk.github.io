@@ -1,44 +1,72 @@
+/* ==================== *
+* = Typography = *
+* ==================== */
+/** Thin */
 @font-face {
-    font-family: "San Francisco";
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
 }
 
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/* ==================== *
+* = Colors = *
+* ==================== */
+.u-darkblue{
+    color: #464E9C;
+}
+
+.u-darkblue:hover {
+    color: #464E9C;
+}
+
+.u-darkgrey {
+    color: #4c4c4c;
+}
+
+/* ==================== *
+* = Main = *
+* ==================== */
 /* header nav */
 .nav {
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
-h1, h2, h4, h5, h6 {
+h1, h2, h4, h5, h6, a, p, body, li {
     font-family: "San Francisco", sans-serif;
+    font-weight: 400;
 }
 
 h1 {
-    margin-bottom: 20px;
     font-size: 32px;
-    font-weight: 600;
 }
 
 h2 {
     font-size: 24px;
-    color: #4c4c4c;
-    margin-bottom: 36px;
+    margin-bottom: 60px;
     font-weight: 200;
-}
-
-h4, h5 {
-    font-family: "San Francisco", sans-serif;
-    color: #4c4c4c;
-    letter-spacing: .01em;
-    /*  margin-bottom: 36px;*/
 }
 
 h5 {
     color: black;
+    letter-spacing: .01em;
 }
 
 h6, p, li {
-    font-family: "San Francisco", sans-serif;
     color: #4c4c4c;
     letter-spacing: .01em;
 }
@@ -70,20 +98,13 @@ img {
     margin: auto;
 }
 
-.u-dodgerblue{
-    color: #464E9C;
+u-bold {
+    font-weight: 600;
 }
 
-.u-dodgerblue:hover {
-    color: #464E9C;
-}
-
-.u-grey {
-    color:#9D9D9D;
-}
-
-/*Components*/
-
+/* ==================== *
+* = Components = *
+* ==================== */
 ul.header-links--inline li {
     display: inline-block;
     width: 100%;
