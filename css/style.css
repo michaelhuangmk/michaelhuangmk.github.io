@@ -98,6 +98,13 @@ img {
     margin: auto;
 }
 
+.img-about {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
 /* ==================== *
 * = Components = *
 * ==================== */
