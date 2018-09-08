@@ -51,7 +51,7 @@
 }
 
 h1, h2, h3, a, p, body, li {
-    font-family: "San Francisco", sans-serif;
+    font-family: "San Francisco","Helvetica Nueue", sans-serif;
     font-weight: 400;
 }
 
@@ -77,8 +77,9 @@ p, li {
 }
 
 hr {
-    width: 60%;
+    width: 65%;
     margin-bottom: 5%;
+    margin-left: 16.5%;
 }
 
 a {
@@ -131,8 +132,8 @@ img {
 * ==================== */
 ul.header-links--inline li {
     display: inline-block;
-    width: 100%;
-    margin: 0 auto;
+    float: left;
+    margin: 0 auto 0;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
@@ -157,6 +158,16 @@ ul.header-links--inline li {
     transition: 0.35s;
 }
 */
+
+.project {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.first {
+    padding-top: 0px;
+}
 
 .portfolio {
     background-color: #fcfcfc;
