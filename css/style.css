@@ -136,6 +136,20 @@ img {
     margin-top: 80px;
 }
 
+#google {
+    margin-top: 30px;
+    width: 12em;
+}
+
+#form-button {
+    height:48px;
+    text-transform: none;
+    font-size: 16px;
+    line-height:44px;
+    font-weight:400;
+    margin: 10px auto 10px auto;
+}
+
 /* ==================== *
 * = Components = *
 * ==================== */
@@ -176,6 +190,7 @@ ul.header-links--inline li {
 
 .first {
     padding-top: 0px;
+    padding-bottom: 50px;
 }
 
 .portfolio {
