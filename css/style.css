@@ -46,8 +46,8 @@
 * ==================== */
 /* header nav */
 .nav {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 200px;
+    margin-bottom: 250px;
 }
 
 h1, h2, h3, a, p, body, li {
@@ -137,8 +137,8 @@ img {
 }
 
 #google {
-    margin-top: 50px;
-    width: 12em;
+/*    margin-top: 20px;*/
+    width: 20em;
 }
 
 #form-button {
@@ -197,5 +197,5 @@ ul.header-links--inline li {
     background-color: #fcfcfc;
     margin-top: -48px;
     padding-bottom: 48px;
-    padding-top: 48px;
+    padding-top: 148px;
 }
