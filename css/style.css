@@ -120,9 +120,18 @@ img {
     margin-top: -20px;
 }
 
+#eatery {
+    width: 25em;
+}
+
 #recast {
     width: 25em;
     margin-top: -20px;
+}
+
+#sml {
+    width: 30em;
+    margin-top: 10px;
 }
 
 #callbaxx {
@@ -139,7 +148,7 @@ img {
 }
 
 #google {
-/*    margin-top: 20px;*/
+    margin-top: -40px;
     width: 20em;
 }
 
