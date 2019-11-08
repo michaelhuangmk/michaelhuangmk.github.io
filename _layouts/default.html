@@ -1,20 +1,30 @@
 <html lang="en">
 	<head>
-		<!-- Open Graph Data -->
+    <!-- Open Graph Data -->
     <meta charset="UTF-8"/>
     <meta property="og:title" content="Michael Huang"/>
     <meta property="og:description" content="Product designer @ Cornell University."/>
     <meta property="og:site_name" content="Michael Huang"/>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS -->
     <link rel="icon" type="favicon" sizes="96x96" href="/favicon.png">
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="/css/skeleton.css">
+<!--    <link rel="stylesheet" type="text/css" href="/css/normalize.css">-->
+    <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <title>Michael Huang</title>
+        
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123749262-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-123749262-1');
+    </script>
 	</head>
 
 	<body>
@@ -51,7 +61,5 @@
 
 		{{ content }}
 
-		<footer>
-		</footer>
 	</body>
 </html>

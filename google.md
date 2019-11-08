@@ -1,4 +1,0 @@
----
-layout: google
-permalink: /google/
----

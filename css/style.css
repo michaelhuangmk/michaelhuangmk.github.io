@@ -53,27 +53,25 @@
 h1, h2, h3, a, p, body, li {
     font-family: "San Francisco","Helvetica Nueue", sans-serif;
     font-weight: 400;
+    color: #17171C;
+    letter-spacing: .01em;
 }
 
 h1 {
     font-size: 32px;
+    letter-spacing: -.1rem;
 }
 
 h2 {
     font-size: 24px;
     margin-bottom: 80px;
     font-weight: 200;
+    letter-spacing: -.1rem;
 }
 
 h3 {
     font-size: 20px;
     color: black;
-    letter-spacing: .01em;
-}
-
-p, li {
-    color: #17171C;
-    letter-spacing: .01em;
 }
 
 hr {
