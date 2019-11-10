@@ -113,11 +113,12 @@ img {
 
 #eatery {
     margin-top: 40px;
+    width: 25em;
 }
 
 
 #sml {
-    margin-top: -40px   ;
+    margin-top: -40px;
     width: 25em;
 }
 
