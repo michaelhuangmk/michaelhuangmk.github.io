@@ -92,42 +92,38 @@ img {
 }
 
 .img-about {
-    width: 80%;
-    height: auto;
-    display: flex;
-    margin-top: 100px;
-/*    margin: auto;*/
+  width: 25em;
+  height: auto;
+  display: flex;
+  margin: auto;
 }
 
 #lokals {
     box-shadow: 0 0 0 0 rgba(0,0,0,0.12), 0 9px 25px 1px rgba(0,0,0,0.12), 0 10px 45px 0 rgba(0,0,0,0.12);
+    margin-top: 20px;
 }
 
 #coffee {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 #duo {
     width: 25em;
-    margin-top: -20px;
 }
 
 #eatery {
-    width: 25em;
+    margin-top: 40px;
 }
 
-#recast {
-    width: 25em;
-    margin-top: -20px;
-}
 
 #sml {
-    width: 30em;
-    margin-top: 10px;
+    margin-top: -40px   ;
+    width: 25em;
 }
 
 #callbaxx {
-    width: 30em;
+    margin-top: 40px;
+    width: 25em;
 }
 
 #rc {
@@ -136,12 +132,10 @@ img {
 
 #ibm {
     margin-top: 80px;
-    width: 20em;
 }
 
 #google {
     margin-top: -40px;
-    width: 20em;
 }
 
 #form-button {
