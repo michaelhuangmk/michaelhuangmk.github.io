@@ -139,6 +139,12 @@ img {
     margin-top: -40px;
 }
 
+#cxd {
+    margin-top: 50px;
+    margin-left: 0em;
+    width: 25em;
+}
+
 #form-button {
     height:48px;
     text-transform: none;
@@ -181,14 +187,14 @@ ul.header-links--inline li {
 */
 
 .project {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     padding-top: 80px;
     border-bottom: 1px solid #E6E6E6;
 }
 
 .first {
+    padding-bottom: 60px;
     padding-top: 0px;
-    padding-bottom: 50px;
 }
 
 .portfolio {
