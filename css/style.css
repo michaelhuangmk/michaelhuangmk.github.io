@@ -146,6 +146,10 @@ img {
     width: 25em;
 }
 
+#facebook {
+    width: 30em;
+}
+
 #form-button {
     height:48px;
     text-transform: none;
