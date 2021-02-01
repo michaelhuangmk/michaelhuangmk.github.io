@@ -120,8 +120,8 @@ img {
 
 
 #sml {
-    margin-top: -20px;
-    margin-left: -20px;
+/*    margin-top: -20px;*/
+/*    margin-left: -20px;*/
     width: 35em;
 }
 
@@ -135,17 +135,17 @@ img {
 }
 
 #google {
-    margin-top: -40px;
+/*    margin-top: -40px;*/
 }
 
 #cxd {
     margin-top: 50px;
-    margin-left: 2em;
+/*    margin-left: 2em;*/
     width: 25em;
 }
 
 #facebook {
-    width: 30em;
+    width: 25em;
 }
 
 #form-button {
